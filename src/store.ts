@@ -10,5 +10,5 @@ export const useStore = create<IUseStore>((set) => ({
   incrementStep: () => set((state) => ({ currentStep: state.currentStep + 1 })),
   setResults: (question) =>
     set((state) => ({ results: [...state.results, question] })),
-  setFinished: () => set((state) => ({ finished: true })),
+  setFinished: () => set(() => ({ finished: true })),
 }));

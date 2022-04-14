@@ -16,7 +16,7 @@ const Results: React.FC = () => {
     if (!finished) {
       navigate("/");
     }
-  }, []);
+  }, [finished, navigate]);
 
   return (
     <ContentWrapper>
