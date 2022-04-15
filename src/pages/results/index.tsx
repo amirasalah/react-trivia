@@ -9,6 +9,7 @@ const Results: React.FC = () => {
   const results = useStore((state) => state.results);
   const finalScore = useStore((state) => state.finalScore);
   const finished = useStore((state) => state.finished);
+  const resetStore = useStore((state) => state.resetStore);
 
   const navigate = useNavigate();
 
@@ -17,6 +18,11 @@ const Results: React.FC = () => {
       navigate("/");
     }
   }, [finished, navigate]);
+
+  const handleClick = () => {
+    navigate("/");
+    resetStore();
+  };
 
   return (
     <ContentWrapper>
@@ -32,7 +38,7 @@ const Results: React.FC = () => {
           </h2>
         </div>
       ))}
-      <Button type={buttonTypes.TRUE} onClick={() => navigate("/")}>
+      <Button type={buttonTypes.TRUE} onClick={() => handleClick()}>
         Play Again?
       </Button>
     </ContentWrapper>
