@@ -3,7 +3,7 @@ import Card from "../../../components/card";
 
 const Step: React.FC<IStep> = ({ category, question }) => {
   return (
-    <section className="">
+    <section className="px-4">
       <p className="mb-10 mt-10 text-center font-extrabold text-2xl">
         {category}
       </p>

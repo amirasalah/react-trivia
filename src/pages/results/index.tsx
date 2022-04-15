@@ -28,10 +28,10 @@ const Results: React.FC = () => {
     <ContentWrapper>
       <h1 className=" font-extrabold mt-10 mb-10 text-4xl">Results</h1>
       <p className=" font-extrabold mb-10 text-xl">
-        Your Final score is: {finalScore}
+        Your Final score is: {finalScore} / {results.length}
       </p>
       {results.map((result, index) => (
-        <div key={index} className="flex">
+        <div key={index} className="flex px-6">
           <p className=" mr-5 text-left">{result.correct ? "🎉" : "☠"}</p>{" "}
           <h2 className={result.correct ? `text-lime-600` : `text-rose-600`}>
             {result.content}

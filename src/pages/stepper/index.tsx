@@ -47,7 +47,7 @@ const Stepper: React.FC = () => {
         </Button>
       </section>
       <p>
-        {currentStep}/{numberOfQuestions}
+        {currentStep} / {numberOfQuestions}
       </p>
     </ContentWrapper>
   );
