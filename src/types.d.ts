@@ -25,6 +25,7 @@ interface IUseStore {
   finalScore: number;
   results: IQuestionResult[];
   finished: boolean;
+  resetStore: () => void;
   incrementStep: () => void;
   incrementFinalScore: () => void;
   setResults: (question: IQuestionResult) => void;

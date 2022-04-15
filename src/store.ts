@@ -5,6 +5,8 @@ export const useStore = create<IUseStore>((set) => ({
   finalScore: 0,
   results: [],
   finished: false,
+  resetStore: () =>
+    set({ currentStep: 1, finalScore: 0, results: [], finished: false }),
   incrementFinalScore: () =>
     set((state) => ({ finalScore: state.finalScore + 1 })),
   incrementStep: () => set((state) => ({ currentStep: state.currentStep + 1 })),
