@@ -3,6 +3,9 @@
 ## Description
 
 Simple app that tests the user's knowledge and display the results at the end
+
+## Github:
+https://github.com/amirasalah/react-trivia
 ## Installation 
 
 ```bash
