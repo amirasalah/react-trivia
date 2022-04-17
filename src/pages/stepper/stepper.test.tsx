@@ -1,5 +1,5 @@
 import { render, screen, fireEvent, waitFor } from "@testing-library/react";
-import Stepper from "./";
+import Stepper from "../stepper";
 import React from "react";
 import { QueryCache, QueryClient, QueryClientProvider } from "react-query";
 import { BrowserRouter } from "react-router-dom";

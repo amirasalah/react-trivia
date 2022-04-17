@@ -1,5 +1,5 @@
 import { render, screen, fireEvent, waitFor } from "@testing-library/react";
-import Results from "./";
+import Results from "../results";
 import React from "react";
 import { BrowserRouter } from "react-router-dom";
 import { useStore } from "../../store";

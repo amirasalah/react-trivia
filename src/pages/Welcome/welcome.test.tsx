@@ -1,5 +1,5 @@
 import { render, screen, waitFor } from "@testing-library/react";
-import Welcome from "./";
+import Welcome from "../welcome";
 import React from "react";
 import { BrowserRouter } from "react-router-dom";
 import { act } from "react-dom/test-utils";

@@ -1,5 +1,5 @@
 import { render, screen } from "@testing-library/react";
-import Step from "./";
+import Step from "../step";
 import React from "react";
 
 const currentQuestion = {
