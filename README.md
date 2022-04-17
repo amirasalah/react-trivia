@@ -47,7 +47,7 @@ yarn build
     - Constants
     - types 
 ## Production Link
-The App is deployed to Netlify: [https://precious-zabaione-efaaa5.netlify.app/] https://precious-zabaione-efaaa5.netlify.app/ 
+The App is deployed to Netlify: https://precious-zabaione-efaaa5.netlify.app/ 
 
 ## Testing
 To run the tests suit:
