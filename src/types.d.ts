@@ -1,10 +1,10 @@
 interface IStep {
   category: string;
-  type: boolean;
+  type: string;
   difficulty: string;
   question: string;
   correct_answer: string;
-  incorrect_answers: boolean[];
+  incorrect_answers: string[];
 }
 interface IGetAllQuestionsResponse {
   response_code: number;
@@ -12,8 +12,8 @@ interface IGetAllQuestionsResponse {
 }
 interface IButtonProperties {
   children: React.ReactNode;
-  type: string;
-  onClick: () => void;
+  type?: string;
+  onClick?: () => void;
 }
 interface IQuestionResult {
   content?: string;
@@ -32,7 +32,7 @@ interface IUseStore {
   setFinished: () => void;
 }
 interface ICard {
-  content: string;
+  children: React.ReactNode;
 }
 interface IContentWrapper {
   children: React.ReactNode;

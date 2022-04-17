@@ -3,7 +3,7 @@ import React from "react";
 import useGetAllQuestions from "../../hooks/useGetAllQuestions";
 import useStepScore from "../../hooks/useStepScore";
 import Button from "../../components/button";
-import Step from "./Step";
+import Step from "./step";
 import { useStore } from "../../store";
 import { UseQueryResult } from "react-query";
 import { buttonTypes } from "../../constants";
@@ -46,9 +46,7 @@ const Stepper: React.FC = () => {
           {buttonTypes.FALSE}
         </Button>
       </section>
-      <p>
-        {currentStep} / {numberOfQuestions}
-      </p>
+      <p>{`${currentStep} / ${numberOfQuestions}`}</p>
     </ContentWrapper>
   );
 };

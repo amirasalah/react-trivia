@@ -7,7 +7,7 @@ const Step: React.FC<IStep> = ({ category, question }) => {
       <p className="mb-10 mt-10 text-center font-extrabold text-2xl">
         {category}
       </p>
-      <Card content={question} />
+      <Card>{question}</Card>
     </section>
   );
 };

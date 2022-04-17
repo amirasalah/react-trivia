@@ -1,7 +1,7 @@
 import React from "react";
 import { buttonTypes } from "../../constants";
 
-const getClasses = (type: string) => {
+const getClasses = (type?: string) => {
   if (type === buttonTypes.TRUE) return "text-emerald-400";
   if (type === buttonTypes.FALSE) return "text-red-400";
 };

@@ -2,7 +2,7 @@ import React from "react";
 import "./app.css";
 import { QueryClient, QueryClientProvider } from "react-query";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import Welcome from "./pages/Welcome";
+import Welcome from "./pages/welcome";
 import Stepper from "./pages/stepper";
 import Results from "./pages/results";
 
