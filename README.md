@@ -8,6 +8,10 @@ Simple app that tests the user's knowledge and display the results at the end
 ```bash
 yarn install
 yarn start
+```
+
+## Build
+```
 yarn build
 ```
 ## Tools
