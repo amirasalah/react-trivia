@@ -1,5 +1,5 @@
 import { render, screen } from "@testing-library/react";
-import ContentWrapper from "../contentWrapper";
+import ContentWrapper from "components/contentWrapper";
 import React from "react";
 
 describe("Content Wrapper Component", () => {

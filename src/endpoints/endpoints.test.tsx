@@ -1,5 +1,5 @@
-import { server } from "../mocks/server";
-import { getAllQuestions } from "../endpoints";
+import { server } from "mocks/server";
+import { getAllQuestions } from "endpoints";
 import { rest } from "msw";
 
 describe("Endpoints", () => {

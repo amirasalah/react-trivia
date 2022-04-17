@@ -1,4 +1,4 @@
-import { getAllQuestions } from "../endpoints";
+import { getAllQuestions } from "endpoints";
 import { useQuery } from "react-query";
 
 const useGetAllQuestions = () =>

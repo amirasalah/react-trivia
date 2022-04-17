@@ -1,8 +1,8 @@
 import { render, screen, fireEvent, waitFor } from "@testing-library/react";
-import Results from "../results";
+import Results from "pages/results";
 import React from "react";
 import { BrowserRouter } from "react-router-dom";
-import { useStore } from "../../store";
+import { useStore } from "store";
 
 describe("Results Component", () => {
   it("should render the results page", () => {

@@ -1,14 +1,14 @@
 /* eslint-disable unicorn/no-null */
 import React from "react";
-import useGetAllQuestions from "../../hooks/useGetAllQuestions";
-import useStepScore from "../../hooks/useStepScore";
-import Button from "../../components/button";
+import useGetAllQuestions from "hooks/useGetAllQuestions";
+import useStepScore from "hooks/useStepScore";
+import Button from "components/button";
 import Step from "./step";
-import { useStore } from "../../store";
+import { useStore } from "store";
 import { UseQueryResult } from "react-query";
 import { buttonTypes } from "../../constants";
-import ContentWrapper from "../../components/contentWrapper";
-import useAnswerQuestion from "../../hooks/useAnswerQuestion";
+import ContentWrapper from "components/contentWrapper";
+import useAnswerQuestion from "hooks/useAnswerQuestion";
 
 const Stepper: React.FC = () => {
   const {

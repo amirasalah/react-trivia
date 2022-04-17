@@ -1,10 +1,10 @@
 import { render, screen, fireEvent, waitFor } from "@testing-library/react";
-import Stepper from "../stepper";
+import Stepper from "pages/stepper";
 import React from "react";
 import { QueryCache, QueryClient, QueryClientProvider } from "react-query";
 import { BrowserRouter } from "react-router-dom";
-import { server } from "../../mocks/server";
-import { getAllQuestionsHandler } from "../../mocks/handlers";
+import { server } from "mocks/server";
+import { getAllQuestionsHandler } from "mocks/handlers";
 
 describe("Stepper Component", () => {
   const queryCache = new QueryCache();

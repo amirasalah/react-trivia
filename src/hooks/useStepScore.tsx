@@ -1,4 +1,4 @@
-import { useStore } from "../store";
+import { useStore } from "store";
 
 const useStepScore = (results?: IStep[]) => {
   const currentStep = useStore((state) => state.currentStep);

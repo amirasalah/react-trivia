@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import ContentWrapper from "../../components/contentWrapper";
-import { useStore } from "../../store";
+import ContentWrapper from "components/contentWrapper";
+import { useStore } from "store";
 
 const Welcome: React.FC = () => {
   const resetStore = useStore((state) => state.resetStore);

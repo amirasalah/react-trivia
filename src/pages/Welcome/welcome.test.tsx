@@ -1,10 +1,10 @@
 import { render, screen, waitFor } from "@testing-library/react";
-import Welcome from "../welcome";
 import React from "react";
 import { BrowserRouter } from "react-router-dom";
 import { act } from "react-dom/test-utils";
+import Welcome from "pages/welcome";
 
-describe("first", () => {
+describe("Welcome Component", () => {
   it("Should Render welcome page", () => {
     render(
       <BrowserRouter>

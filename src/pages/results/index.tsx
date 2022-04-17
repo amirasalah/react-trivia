@@ -1,9 +1,9 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
-import Button from "../../components/button";
-import ContentWrapper from "../../components/contentWrapper";
+import Button from "components/button";
+import ContentWrapper from "components/contentWrapper";
 import { buttonTypes } from "../../constants";
-import { useStore } from "../../store";
+import { useStore } from "store";
 
 const Results: React.FC = () => {
   const results = useStore((state) => state.results);
